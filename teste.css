@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #1C1C1C 16.62%, #696969 85.61%)
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    width: 120px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family:'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight:400px;
+    font-size: 18px;
+}
+
+.conteudo{
+    border-top:0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color:#FFF2E7;
+    align-self: center;
+}
+
+.conteudo-principal-escrito-paragrafo{
+    font-family:'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color:#ECD6C4;
+}
+
+.conteudo-principal-imagem{
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 290px;
+}
+
+.conteudo-secundario-titulo{
+    display: block;
+    margin-top: 70px;
+    font-family:'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color:#ECD6C4;
+    margin: 0 auto;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:24px;
+    margin-top: 20px;
+}
+
+.conteudo-secundario-imagem{
+    border-radius: 100%;
+    width: 200px;
+}
+
+.conteudo-secundario-imagem1{
+    width: 190px;
+}
+
+
+.rodape{
+    border-top:0.4px solid #FFF2E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    justify-content: space-between;
+}
+
+.rodape-imagem{
+    height: 100px;
+}
+
+.rodape-assinatura{
+    margin-top: -10px;
+    font-family:'Sarala', sans-serif;
+    color:#ECD6C4;
+}
+
